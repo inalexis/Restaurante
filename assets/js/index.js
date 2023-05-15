@@ -16,6 +16,17 @@ function mostrarContacto() {
   }
 }
   
+//funcion de sobre nosotros
+$(document).ready(function() {
+  $("#sobreNosotros").click(function() {
+    $("#carouselExampleCaptions").toggle();
+  });
+
+  $("#close-link").click(function() {
+    $("#carouselExampleCaptions").hide();
+  });
+});
+
   
 
 
